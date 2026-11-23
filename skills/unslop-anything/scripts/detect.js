@@ -998,7 +998,7 @@ function listRules() {
     .join("\n");
 }
 
-const USAGE = `Usage: unslop-anything detect [paths...] [--json] [--platform mobile|web] [--ignore rule,rule] [--include-tests] [--list-rules]
+const USAGE = `Usage: unslop-anything detect [paths...] [--json] [--platform mobile|web|universal] [--ignore rule,rule] [--include-tests] [--list-rules]
 
 Scans mobile and web source for generated-looking UI, website-in-a-phone patterns,
 and accessibility and motion defaults. The platform comes from the nearest
